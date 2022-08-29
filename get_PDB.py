@@ -12,7 +12,7 @@ from rcsbsearch import rcsb_attributes as attrs
 try:
     search_terms_df = pd.read_excel(PATH_GOES_HERE)
     '''
-    "C:\Users\mryan\OneDrive\Documents\Workflow Informatics\Nimbus\Projet PDB Search Terms.xlsx"
+    # ENTER PATH TO SEARCH TERMS
     '''
 except:
     print('path to search terms not found')
